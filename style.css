@@ -9,7 +9,7 @@ body {
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    background-color: #ffffff;
+    background-color: #f3f2f2;
     font-family: Poppins;
 }
 
@@ -62,4 +62,12 @@ body {
 
 .navbar ul li:hover::after {
     width: 100%;
+}
+
+
+
+.card {
+    width: 352px;
+    height: 585px;
+    padding: 20px;
 }
