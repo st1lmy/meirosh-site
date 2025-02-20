@@ -45,4 +45,72 @@ body {
     margin-bottom: -3px;
 }
 
-.title span
+.title span {
+    font-size: 12px;
+}
+
+.post {
+    width: 313px;
+    height: 314px;
+    position: relative;
+    bottom: 72px;
+}
+
+.content {
+    position: relative;
+    bottom: 57px;
+}
+
+.content p {
+    font-weight: 500;
+    padding: 5px 6px;
+    font-size: 15px;
+}
+
+.content span {
+    padding-left: 6px;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.content span:last-child {
+    color: rgba(0,0,0,0.452);
+    padding: 0 !important;
+    font-weight: normal;
+}
+
+.content img {
+    width: 26px;
+    margin: 0 5px;
+}
+
+.content p:last-child {
+    display: inline;
+}
+
+.comment span {
+    margin-bottom: 36px;
+    position: relative;
+    bottom: 45px;
+    margin-left: -24px;
+    color: #0000006e;
+}
+
+.comment img {
+    width: 29px;
+    border-radius: 50px;
+    float: left;
+    border: 1px solid rgba(0,0,0,0.377);
+    position: relative;
+    bottom: 19px;
+    left: 4px;
+}
+
+input {
+    border: none;
+    padding: 6px 10px;
+    position: relative;
+    bottom: 40px;
+    left: 5px;
+}
+
