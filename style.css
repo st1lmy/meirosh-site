@@ -1,116 +1,138 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    background-color: #f3f2f2;
-    font-family: Poppins;
+    width: 100%;
+    height: 500vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    background-color: #ebe7e7;
+    flex-direction: column;
 }
 
 
 
-.card {
-    width: 352px;
-    height: 585px;
-    padding: 20px;
-    box-shadow: 1px -2px 32px 63px;
+.container {
+    width: 640px;
+    background: #ffffff;
+    overflow: hidden;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    margin-bottom: 60px;
+
 }
 
-.img {
-    display: inline;
+.top_bar {
+    width: 100%;
+    height: 75px;
+    padding: 25px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.img img {
-    width: 11%;
+
+.profile_img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.profile_img img {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 42px;
+    height: 42px;
     border-radius: 50%;
-    display: block;
-    border: 1px solid rgba(0,0,0,0.274);
+    display: inline-block;
+    object-fit: cover;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
-.title {
-    display: block;
-    position: relative;
-    left: 43px;
-    bottom: 37px;
+
+.profile_img span {
+    margin-left: 50px;
 }
 
-.title p {
-    font-size: 17px;
-    margin-bottom: -3px;
+
+.main_img {
+    width: 640px;
+    height: 640px;
+    margin-bottom: 15px;
 }
 
-.title span {
-    font-size: 12px;
+.main_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.post {
-    width: 313px;
-    height: 314px;
-    position: relative;
-    bottom: 72px;
+.footer {
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
-.content {
-    position: relative;
-    bottom: 57px;
+
+
+.likeCount p{
+    color: #010101;
+    font-size: 14px;
 }
 
-.content p {
-    font-weight: 500;
-    padding: 5px 6px;
-    font-size: 15px;
+.content p{
+    padding: 5px 0;
 }
 
-.content span {
-    padding-left: 6px;
-    font-weight: 500;
-    font-size: 15px;
+.comments p{
+    font-size: 14px;
+    color: #dbdbdb;
+    padding: 5px 0;
+    padding-bottom: 10px;
 }
 
-.content span:last-child {
-    color: rgba(0,0,0,0.452);
-    padding: 0 !important;
-    font-weight: normal;
+
+.comments_box {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
-.content img {
-    width: 26px;
-    margin: 0 5px;
+.input_field{
+    width: 100%;
 }
 
-.content p:last-child {
-    display: inline;
+.input_field input{
+    width: 100%;
+    padding: 10px;
+    bottom: none !important;
+    outline: none;
 }
 
-.comment span {
-    margin-bottom: 36px;
-    position: relative;
-    bottom: 45px;
-    margin-left: -24px;
-    color: #0000006e;
-}
-
-.comment img {
-    width: 29px;
-    border-radius: 50px;
-    float: left;
-    border: 1px solid rgba(0,0,0,0.377);
-    position: relative;
-    bottom: 19px;
-    left: 4px;
-}
-
-input {
+.btn button {
+    background: transparent;
+    padding: 10px;
+    outline: none;
     border: none;
-    padding: 6px 10px;
-    position: relative;
-    bottom: 40px;
-    left: 5px;
+    color: #207be2;
+    font-weight: 600;
+    cursor: pointer;
 }
-
