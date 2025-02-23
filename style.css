@@ -18,10 +18,6 @@ body {
     flex-direction: column;
 }
 
-.imgprf {
-    display: block;
-}
-
 .btn {
     all: unset;
     background: none;
@@ -50,21 +46,19 @@ body {
 }
 
 .profile-image img {
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     display: inline-block;
     object-fit: cover;
     margin-top: 70px;
-    margin-left: -80px;
+    margin-left: 20px;
 }
 
-.profile-user-settings,
-.profile-stats,
-.profile-bio {
+
+.profile-stats{
     float: left;
-    width: calc(66,666% - 2rem);
-    margin-left: 300px;
+    margin-left: 170px;
     margin-top: -180px;
     size: 200px;
 }
@@ -75,21 +69,66 @@ body {
     margin-left: -350px;
 }
 
-.name {
-    display: inline-block;
-    font-size: 2rem;
-    font-weight: 300;
+.tm{
+    margin-top: 4rem;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 500;
 }
 
+.m {
+    font-size: 12px;
+    color: #737373;
+    margin-top: 18px;
+    margin-left: 5.3em;
+}
 
+p {
+    margin-right: 20px;
+    font-size: 14px ;
+}
+
+.name {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+button {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    background-color: #dadada;
+    border: 0;
+    border-radius: 6px;
+    font-size: 14px;
+    padding: 6px 16px 6px 16px;
+
+}
+
+.btn1 {
+    margin-left: 30px;
+}
+
+.btn2 {
+    margin-left: 10px;
+}
+
+.imgprf{
+    margin-right: 10rem;
+}
 
 .profile-stats li {
     display: inline-block;
-    font-size: 2.2rem;
+    font-size: 18px;
     line-height: 1.5;
-    margin-right: 100px;
-    margin-top: 40px;
+    margin-right: 15px;
+    margin-top: 60px;
     cursor: pointer;
+}
+
+span {
+    color: #737373;
 }
 
 .profile-stats li:last-of-type {
@@ -104,17 +143,14 @@ body {
     margin-left: 95px;
 }
 
-p {
-    margin-right: 20px;
-}
-
 .gg {
+    margin-right: 65px;
     size: 4px;
     align-items: center;
 }
 
 .pp {
-    margin-top: 100px;
+    margin-top: 75px;
 }
 
 .container {
